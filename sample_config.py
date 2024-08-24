@@ -1,9 +1,9 @@
 import os
 
-api_id = 28528007
-api_hash = os.environ.get("API_HASH", "38464da16c80310cabc8d13952419cf3")
+api_id = 21250782
+api_hash = os.environ.get("API_HASH", "458eddfa15ca2c67a2c299d925b6a71e")
 bot_token = os.environ.get("BOT_TOKEN")
-auth_users = os.environ.get("AUTH_USERS", "6329158981")
+auth_users = os.environ.get("AUTH_USERS", "7011045471")
 sudo_users = [int(num) for num in auth_users.split(",")]
-osowner_users = os.environ.get("OWNER_USERS", "6329158981")
+osowner_users = os.environ.get("OWNER_USERS", "7011045471")
 owner_users = [int(num) for num in osowner_users.split(",")]
